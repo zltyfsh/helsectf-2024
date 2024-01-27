@@ -1,0 +1,7 @@
+1: Ingenting => (-500, 1229)
+2: Han gikk => (500, 2229)
+3: Håndkleet => (1000, 2729)
+
+SSS = 1729
+
+flag = helsectf{ved_x_null_er_alt_gull}

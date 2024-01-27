@@ -1,0 +1,12 @@
+[x] Opening connection to helsectf2024-2da207d37b091b1b4dff-joppe1.chals.io on port 443
+[x] Opening connection to helsectf2024-2da207d37b091b1b4dff-joppe1.chals.io on port 443: Trying 143.244.222.116
+[+] Opening connection to helsectf2024-2da207d37b091b1b4dff-joppe1.chals.io on port 443: Done
+[*] Switching to interactive mode
+
+Velg gåte (1-3) eller 4 for å teste koden: Gi meg koden så skal jeg gi deg flagget: [x] Opening connection to helsectf2024-2da207d37b091b1b4dff-joppe1.chals.io on port 443
+[x] Opening connection to helsectf2024-2da207d37b091b1b4dff-joppe1.chals.io on port 443: Trying 143.244.222.115
+[+] Opening connection to helsectf2024-2da207d37b091b1b4dff-joppe1.chals.io on port 443: Done
+[*] Switching to interactive mode
+
+Velg gåte (1-3) eller 4 for å teste koden: Gi meg koden så skal jeg gi deg flagget: helsectf{ved_x_null_er_alt_gull}
+[*] Got EOF while reading in interactive
