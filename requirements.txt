@@ -1,0 +1,7 @@
+numpy
+oletools
+pillow
+pycryptodome
+pwntools
+requests
+scipy
