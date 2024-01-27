@@ -1,0 +1,43 @@
+[x] Opening connection to helsectf2024-2da207d37b091b1b4dff-stateofgo.chals.io on port 443
+[x] Opening connection to helsectf2024-2da207d37b091b1b4dff-stateofgo.chals.io on port 443: Trying 143.244.222.115
+[+] Opening connection to helsectf2024-2da207d37b091b1b4dff-stateofgo.chals.io on port 443: Done
+[*] Switching to interactive mode
+Mitt Go program kompilerer fint, men viser ikke flagget? Jeg som trodde Go aldri kunne gjøre noe feil!?
+
+------------
+package main
+
+import (
+	"fmt"
+	"os"
+)
+
+type N struct {
+	data string
+	i    int
+}
+
+func (n N) get() string {
+	return string(n.data[n.i])
+}
+
+func main() {
+	flag, _ := os.ReadFile("flag.txt")
+	n := N{string(flag), -1}
+	t := func(n N) N {
+		n.i += 1
+		return n
+	}
+	for i := 0; i < len(n.data); i++ {
+		n := t(n)
+		fmt.Print(n.get())
+	}
+	fmt.Println()
+}
+
+------------
+result:hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+ 
+offset (decimal)?> byte (hex)?> error
+[*] Got EOF while reading in interactive
+[*] Closed connection to helsectf2024-2da207d37b091b1b4dff-stateofgo.chals.io port 443
